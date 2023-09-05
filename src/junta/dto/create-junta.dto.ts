@@ -8,6 +8,8 @@ import {
 } from 'class-validator';
 
 export class CreateJuntaDto {
+  
+  /*
   @IsNotEmpty()
   @IsNumber()
   @IsPositive()
@@ -33,6 +35,8 @@ export class CreateJuntaDto {
   @IsNotEmpty()
   @IsString()
   schedule: string;
+*/
+
 
   @IsNotEmpty()
   @IsString()
@@ -46,6 +50,7 @@ export class CreateJuntaDto {
   @IsString()
   material: string;
 
+  /*
   @IsNotEmpty()
   @IsNumber()
   @IsPositive()
@@ -60,4 +65,5 @@ export class CreateJuntaDto {
   @IsNumber()
   @IsPositive()
   pulgadas_diametrales: number;
+  */
 }

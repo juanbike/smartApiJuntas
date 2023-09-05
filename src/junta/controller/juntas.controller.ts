@@ -1,11 +1,11 @@
 /* eslint-disable prettier/prettier */
 import { Get, Post, Put, Delete, Body, Param, Controller } from '@nestjs/common';
-import { JuntasService } from './../services/juntas.service';
-import { Junta } from './../interface/juntas.entity';
+import { JuntasService } from '../services/juntas.service';
+import { Junta } from '../interface/juntas.entity';
 import { CreateJuntaDto } from '../dto/create-junta.dto';
 
   
-@Controller('juntas')
+@Controller('api/juntas')
   export class JuntasController {
     constructor(private readonly juntasService: JuntasService) {}
 

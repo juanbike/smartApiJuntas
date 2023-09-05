@@ -32,6 +32,7 @@ export class Junta {
 
     id: number 			
 
+    /*
     @IsNotEmpty()
     @IsNumber()
     @IsPositive()
@@ -57,7 +58,9 @@ export class Junta {
     @IsNotEmpty()
     @IsString()
     schedule: string;
-    
+    */
+
+
     @IsNotEmpty()
     @IsString()
     tipo_extremos: string;
@@ -70,6 +73,7 @@ export class Junta {
     @IsString()
     material: string;
 
+    /*
     @IsNotEmpty()
     @IsNumber()
     @IsPositive()
@@ -84,4 +88,5 @@ export class Junta {
     @IsNumber()
     @IsPositive()
     pulgadas_diametrales: number;
+    */
 }

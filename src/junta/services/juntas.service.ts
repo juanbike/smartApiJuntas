@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { Junta } from './../interface/juntas.entity';
+import { Junta } from '../interface/juntas.entity';
 import { CreateJuntaDto } from '../dto/create-junta.dto';
 
 @Injectable()
